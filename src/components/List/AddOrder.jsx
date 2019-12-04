@@ -22,7 +22,6 @@ const AddOrder = () => {
             placeholder='drink name'
             value={input.name}
             onChange={e => setInput({ ...input, name: e.target.value })}
-            required
           />
 
           <input
@@ -30,7 +29,6 @@ const AddOrder = () => {
             placeholder='price'
             value={input.price}
             onChange={e => setInput({ ...input, price: e.target.value })}
-            required
           />
 
           <textarea
@@ -39,7 +37,6 @@ const AddOrder = () => {
             placeholder='note'
             value={input.note}
             onChange={e => setInput({ ...input, note: e.target.value })}
-            required
           />
         </div>
 

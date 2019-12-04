@@ -8,11 +8,9 @@ import AddOrder from './AddOrder';
 const List = () => {
   const { list } = useContext(AppContext);
 
-  console.log(list);
   return (
     <ModalProvider>
       <AddOrder />
-
       <StyledList>
         {list.map(d => (
           <EachOrder

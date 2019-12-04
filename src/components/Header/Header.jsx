@@ -9,6 +9,7 @@ const Header = () => {
     <StyledHeader>
       <div className='header-flex'>
         <img src={logo} alt='logo' />
+        <span>drink! drink! drink!</span>
         <i
           onClick={() => setIsModalOpen(true)}
           className='fas fa-plus-circle'
@@ -39,6 +40,10 @@ const StyledHeader = styled.div`
     align-items: center;
     img {
       width: 80px;
+    }
+    span {
+      font-family: ${props => props.theme.fonts.main};
+      font-size: ${props => props.theme.fontSize[2]};
     }
     i {
       font-size: ${props => props.theme.fontSize[2]};
