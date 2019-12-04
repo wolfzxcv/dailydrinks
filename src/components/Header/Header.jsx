@@ -1,13 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import styled from 'styled-components';
 import logo from '../../assets/logo.png';
+import { AppContext } from '../../context/AppContext';
 
 const Header = () => {
+  const { setIsModalOpen } = useContext(AppContext);
   return (
     <StyledHeader>
       <div className='header-flex'>
         <img src={logo} alt='logo' />
-        <i className='fas fa-plus-circle' />
+        <span>drink! drink! drink!</span>
+        <i
+          onClick={() => setIsModalOpen(true)}
+          className='fas fa-plus-circle'
+          onKeyDown={() => setIsModalOpen(true)}
+          aria-label='modal control'
+          role='button'
+          tabIndex='0'
+        />
       </div>
     </StyledHeader>
   );
@@ -30,6 +40,10 @@ const StyledHeader = styled.div`
     align-items: center;
     img {
       width: 80px;
+    }
+    span {
+      font-family: ${props => props.theme.fonts.main};
+      font-size: ${props => props.theme.fontSize[2]};
     }
     i {
       font-size: ${props => props.theme.fontSize[2]};
