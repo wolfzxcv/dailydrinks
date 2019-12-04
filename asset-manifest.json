@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dailydrinks/static/css/main.14791b58.chunk.css",
+    "main.js": "/dailydrinks/static/js/main.5a2c3d6a.chunk.js",
+    "main.js.map": "/dailydrinks/static/js/main.5a2c3d6a.chunk.js.map",
+    "runtime-main.js": "/dailydrinks/static/js/runtime-main.dd40e46d.js",
+    "runtime-main.js.map": "/dailydrinks/static/js/runtime-main.dd40e46d.js.map",
+    "static/js/2.8dcb9920.chunk.js": "/dailydrinks/static/js/2.8dcb9920.chunk.js",
+    "static/js/2.8dcb9920.chunk.js.map": "/dailydrinks/static/js/2.8dcb9920.chunk.js.map",
+    "index.html": "/dailydrinks/index.html",
+    "precache-manifest.c59817a06754a15c7fed8d8bf6263ff7.js": "/dailydrinks/precache-manifest.c59817a06754a15c7fed8d8bf6263ff7.js",
+    "service-worker.js": "/dailydrinks/service-worker.js",
+    "static/css/main.14791b58.chunk.css.map": "/dailydrinks/static/css/main.14791b58.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd40e46d.js",
+    "static/js/2.8dcb9920.chunk.js",
+    "static/css/main.14791b58.chunk.css",
+    "static/js/main.5a2c3d6a.chunk.js"
+  ]
+}
